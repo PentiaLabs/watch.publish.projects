@@ -1,0 +1,28 @@
+{
+  "name": "@pentia/watch-publish-projects",
+  "version": "0.1.0",
+  "description": "Watch for changes in cshtml files and publish them",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "@pentia/publish-projects": "0.1.12"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PentiaLabs/watch.publish.projects.git"
+  },
+  "keywords": [
+    "sitecore",
+    "gulp",
+    "publish"
+  ],
+  "author": "Emil Klein <eok@pentia.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PentiaLabs/watch.publish.projects/issues"
+  },
+  "homepage": "https://github.com/PentiaLabs/watch.publish.projects#readme"
+}

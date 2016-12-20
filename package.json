@@ -1,6 +1,6 @@
 {
   "name": "@pentia/watch-publish-projects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Watch for changes in cshtml files and publish them",
   "main": "gulpfile.js",
   "scripts": {

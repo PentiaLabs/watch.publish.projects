@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var publish = require("@pentia/publish-projects")
 var foreach = require("gulp-foreach");
 
-gulp.task("Auto-Publish-Views", function () {
+gulp.task("Auto-Publish-Views", function (callback) {
   var root = "./src";
   var roots = [root + "/**/Views", "!" + root + "/**/obj/**/Views"];
   var files = "/**/*.cshtml";
@@ -15,7 +15,7 @@ gulp.task("Auto-Publish-Views", function () {
           var viewPathIndex = event.path.toLocaleLowerCase().indexOf("views");
           var projectPath = event.path.slice(0,viewPathIndex);
           publish.publish.publishProjects(projectPath);
-          publish.deleteConfig.delete();
+          publish.deleteConfig.delete(callback);
         }
       });
       return stream;

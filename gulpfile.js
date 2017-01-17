@@ -15,6 +15,7 @@ gulp.task("Auto-Publish-Views", function () {
           var viewPathIndex = event.path.toLocaleLowerCase().indexOf("views");
           var projectPath = event.path.slice(0,viewPathIndex);
           publish.publish.publishProjects(projectPath);
+          publish.deleteConfig.delete();
         }
       });
       return stream;

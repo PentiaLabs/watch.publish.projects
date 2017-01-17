@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "gulp": "^3.9.0",
-    "@pentia/publish-projects": "0.1.12"
+    "@pentia/publish-projects": "0.1.14"
     },
   "repository": {
     "type": "git",

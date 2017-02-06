@@ -1,6 +1,6 @@
 {
   "name": "@pentia/watch-publish-projects",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Watch for changes in cshtml files and publish them",
   "main": "gulpfile.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "gulp": "^3.9.0",
+    "gulp-util": "^3.0.8",
     "@pentia/publish-projects": "0.1.15"
     },
   "repository": {
